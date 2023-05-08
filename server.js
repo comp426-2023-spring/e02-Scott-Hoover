@@ -20,6 +20,7 @@ if (args.debug) {
 if (args.h || args.help) {
     console.log(`
 
+
 usage: node server.js --port=5000
 
 This package serves the static HTML, CSS, and JS files in a /public directory.
