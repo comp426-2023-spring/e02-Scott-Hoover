@@ -69,7 +69,6 @@ const port = args.port || args.p || process.env.PORT || 8080
 import { rps } from "./lib/rpsls.js";
 import { rpsls } from "./lib/rpsls.js";
 
-import express from "express";
 const args = minimist(process.argv.slice(2));
 
 const port = args.port || 5000;
