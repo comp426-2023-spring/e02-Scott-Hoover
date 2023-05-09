@@ -70,7 +70,6 @@ import { rps } from "./lib/rpsls.js";
 import { rpsls } from "./lib/rpsls.js";
 
 
-const port = args.port || 5000;
 const app = express();
 
 
