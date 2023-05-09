@@ -10,8 +10,8 @@ function beginall() {
 
 
 function changebut() {
-    let oppCheck = getElementById('opponent');
-    let rpslsCheck = getElementById("rpsls");
+    let oppCheck = document.getElementById('opponent');
+    let rpslsCheck = document.getElementById("rpsls");
     if (oppCheck.checked == false) {
         document.getElementById("shots").style.display = "none"
     } else {
