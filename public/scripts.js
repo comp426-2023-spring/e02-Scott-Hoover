@@ -69,4 +69,6 @@ async function goplay () {
     if (oppCheck) {
         resultString = resultString + ' and your opponent chose ' + result.opponent + '. Result: ' + result.result;
     }
+    document.getElementById("results").innerText = resultString
+    document.getElementById("results").style.display = "block"
 }
