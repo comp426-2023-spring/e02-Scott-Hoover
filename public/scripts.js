@@ -49,12 +49,12 @@ function help() {
 
 async function goplay () {
     let gameType = "rps"
-    for (x of document.getElementsByName("gameType")) {
+    for (var x of document.getElementsByName("gameType")) {
         if (x.checked == true) { gameType = x.id }
     }
     
     let shot = "rock"
-    for (x of document.getElementsByName("shot")) {
+    for (var x of document.getElementsByName("shot")) {
         if (x.checked == true) { shot = x.id }
     }
 
