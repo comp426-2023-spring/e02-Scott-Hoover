@@ -58,14 +58,14 @@ async function goplay () {
         if (x.checked == true) { shot = x.id }
     }
 
-    let baseurl = window.location.href.concat(app/)
+    let baseurl = window.location.href.concat('app/')
     let url = baseurl.concat(gameType.concat('/play/'))
     let oppCheck = document.getElementById('opponent').checked
     if (oppCheck) { url = url.concat(shot) }
     let response = await fetch(url)
     let result = await response.json()
 
-    result = 'You chose ' + result.player
+    resultString = 'You chose ' + result.player
     if (oppCheck) {
         resultString = resultString + ' and your opponent chose ' + result.opponent + '. Result: ' + result.result;
     }
