@@ -1,8 +1,14 @@
+
 body {
+    background-color: rgb(125, 76, 170);
 }
 
-h1 {
-}
 
-p {
+button {
+    background-color: #14e448; /* Matte gray */
+    color: rgb(0, 0, 0);
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    display: inline-block;
 }
