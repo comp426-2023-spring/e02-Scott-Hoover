@@ -2,7 +2,7 @@
 // check out the coin-server example from a previous COMP 426 semester.
 // https://github.com/jdmar3/coinserver
 
-n beginall() {
+function beginall() {
     document.getElementById("shots").style.display = "none"
     document.getElementById("results").style.display = "none"
     document.getElementById("rules").style.display = "none"
